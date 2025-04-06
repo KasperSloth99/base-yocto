@@ -1,4 +1,4 @@
-MACHINE = "raspberrypi0-wifi"
+MACHINE = "raspberrypi0-2w"
 DL_DIR ?= "${HOME}/.yocto-cache/downloads"
 SSTATE_DIR ?= "${HOME}/.yocto-cache/sstate-cache"
 
@@ -21,3 +21,5 @@ BB_DISKMON_DIRS ??= "\
 BB_SERVER_TIMEOUT = "60"
 
 CONF_VERSION = "2"
+
+INHERIT += "rm_work"
