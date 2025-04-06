@@ -5,7 +5,7 @@ export DL_DIR="/home/kasper/.yocto-cache/downloads"
 export SSTATE_DIR="/home/kasper/.yocto-cache/sstate-cache"
 
 SCRIPT_DIR="$(pwd)"
-MACHINE_NAME="rpi"
+MACHINE_NAME="rpi0w"    
 BUILD_NAME="build-${MACHINE_NAME}"
 BUILD_DIR="${SCRIPT_DIR}/${BUILD_NAME}"
 
